@@ -1,0 +1,410 @@
+{
+    "questions": [
+      {
+        "id": "q-001",
+        "category": "History",
+        "prompt": "How many U.S. Presidents have been assassinated while serving as President?",
+        "answer": "Four - Abraham Lincoln, James Garfield, William McKinley and John F. Kennedy",
+        "notes": ""
+      },
+      {
+        "id": "q-002",
+        "category": "Finance",
+        "prompt": "Lev is the currency of which country?",
+        "answer": "Bulgaria",
+        "notes": ""
+      },
+      {
+        "id": "q-003",
+        "category": "Sports",
+        "prompt": "At which ground did Kapil Dev score his iconic 175* in the 1983 Cricket World Cup?",
+        "answer": "The Nevill Ground at Tunbridge Wells",
+        "notes": ""
+      },
+      {
+        "id": "q-004",
+        "category": "History",
+        "prompt": "What were the names of the two policies enacted by Mikhail Gorbachev to reform the Soviet Union which eventually led to the end of the Cold War?",
+        "answer": "Glasnost (transparency) and Perestroika (economic reform)",
+        "notes": ""
+      },
+      {
+        "id": "q-005",
+        "category": "STEM",
+        "prompt": "What two elements is Jupiter made of?",
+        "answer": "Hydrogen and Helium",
+        "notes": ""
+      },
+      {
+        "id": "q-006",
+        "category": "History",
+        "prompt": "What is Gavrilo Princip notorious for in the 20th century?",
+        "answer": "The assassination of Archduke Franz Ferdinand",
+        "notes": ""
+      },
+      {
+        "id": "q-007",
+        "category": "STEM",
+        "prompt": "Who is the only person to receive a Noble Prize in two different fields?",
+        "answer": "Marie Curie - Physics and Chemistry",
+        "notes": ""
+      },
+      {
+        "id": "q-008",
+        "category": "History",
+        "prompt": "Who won the First Battle of Panipat?",
+        "answer": "Babur",
+        "notes": "Defeated Ibrahim Lodi"
+      },
+      {
+        "id": "q-009",
+        "category": "History",
+        "prompt": "Which U.S. president promised to land on the moon before the end of the decade, \"not because it is easy but because it is hard\"?",
+        "answer": "John F. Kennedy",
+        "notes": ""
+      },
+      {
+        "id": "q-010",
+        "category": "Geography",
+        "prompt": "The Durand Line is the border between which two countries?",
+        "answer": "Afghanistan and Pakistan",
+        "notes": ""
+      },
+      {
+        "id": "q-011",
+        "category": "Geography",
+        "prompt": "What is the highest mountain peak in India?",
+        "answer": "Kangchenjunga",
+        "notes": "Third highest in the world after Everest and K2"
+      },
+      {
+        "id": "q-012",
+        "category": "History",
+        "prompt": "Danzig is the old name for which Polish city which was one of the first places attacked during World War 2?",
+        "answer": "Gdansk",
+        "notes": ""
+      },
+      {
+        "id": "q-013",
+        "category": "History",
+        "prompt": "The Entente Cordial forms the basis of the current foreign relations between which two countries?",
+        "answer": "England and France",
+        "notes": ""
+      },
+      {
+        "id": "q-014",
+        "category": "History",
+        "prompt": "Name any one of the two now suspended trains between India and Pakistan.",
+        "answer": "Samjhauta Express and Thar Express",
+        "notes": ""
+      },
+      {
+        "id": "q-015",
+        "category": "Geography",
+        "prompt": "Which tube line(s) can you take from Bayswater?",
+        "answer": "Circle and District lines",
+        "notes": ""
+      },
+      {
+        "id": "q-016",
+        "category": "Geography",
+        "prompt": "Name 10 countries that share land borders with Russia.",
+        "answer": "Norway, Finland, Estonia, Latvia, Belarus, Ukraine, Mongolia, China, Kazakhstan, North Korea, Azerbaijan, Georgia, Poland, Lithuania",
+        "notes": ""
+      },
+      {
+        "id": "q-017",
+        "category": "Geography",
+        "prompt": "Which is the largest European country without a railway network? ",
+        "answer": "Iceland",
+        "notes": ""
+      },
+      {
+        "id": "q-018",
+        "category": "Sports",
+        "prompt": "Who scored the winning goal in the 2014 FIFA World Cup final?",
+        "answer": "Mario Götze",
+        "notes": ""
+      },
+      {
+        "id": "q-019",
+        "category": "Bollywood",
+        "prompt": "Which movie won the Filmfare award for best movie in 1976?",
+        "answer": "Deewar",
+        "notes": ""
+      },
+      {
+        "id": "q-020",
+        "category": "STEM",
+        "prompt": "What is the sum of the first 999 natural numbers",
+        "answer": "499500",
+        "notes": "Formula n(n+1)/2"
+      },
+      {
+        "id": "q-021",
+        "category": "STEM",
+        "prompt": "I'm thinking of a secret whole number between 1 and 1,000 — inclusive. You're allowed to ask yes-or-no questions, but only of the form: \"Is your number greater than X?\" What is the smallest number of questions you would ever need to guarantee you can find my number, no matter what it is?",
+        "answer": "10",
+        "notes": "2^10 = 1024 > 1000"
+      },
+      {
+        "id": "q-022",
+        "category": "Geography",
+        "prompt": "Which two Zone 1 stations in London have direct connections to 3 different London airports?",
+        "answer": "Farringdon and Liverpool Street",
+        "notes": ""
+      },
+      {
+        "id": "q-023",
+        "category": "History",
+        "prompt": "Which American celebrity is incorrectly thought to have helped in bringing down the Berlin Wall?",
+        "answer": "David Hasselhoff",
+        "notes": "He did perform there in 1989 but the wall came down due to political changes in East Germany"
+      },
+      {
+        "id": "q-024",
+        "category": "Bollywood",
+        "prompt": "In which movie did Amitabh Bachchan say the famous dialogue \"Hum jahan khade hote hain, line wahin se shuru hoti hai\"?",
+        "answer": "Kaalia (1981)",
+        "notes": ""
+      },
+      {
+        "id": "q-025",
+        "category": "Finance",
+        "prompt": "In which year did U.S. President Richard Nixon end the direct convertibility of the U.S. Dollar to gold, effectively removing the United States from the Gold Standard?",
+        "answer": "1971",
+        "notes": ""
+      },
+      {
+        "id": "q-026",
+        "category": "Geography",
+        "prompt": "The airport code OTP is used for the capital of which European country?",
+        "answer": "Romania (Bucharest - Henri Coandă International Airport)",
+        "notes": ""
+      },
+      {
+        "id": "q-027",
+        "category": "Geography",
+        "prompt": "What is the new name of the London Overground line from Watford Junction to Euston?",
+        "answer": "Lioness Line",
+        "notes": ""
+      },
+      {
+        "id": "q-028",
+        "category": "Brands",
+        "prompt": "In which year was the first iPhone launched?",
+        "answer": "2007",
+        "notes": ""
+      },
+      {
+        "id": "q-029",
+        "category": "Mythology",
+        "prompt": "What bird deity serves as Lord Vishnu's mount?",
+        "answer": "Garuda",
+        "notes": ""
+      },
+      {
+        "id": "q-030",
+        "category": "Sports",
+        "prompt": "F1 cars drive upside down in some simulations - what property of the car makes that theoretically possible?",
+        "answer": "High downforce - the downforce is more than the weight of the car",
+        "notes": ""
+      },
+      {
+        "id": "q-031",
+        "category": "Geography",
+        "prompt": "The Øresund Bridge, which is partly below the ocean and partly above, links which two cities?",
+        "answer": "Copenhagen and Malmo",
+        "notes": ""
+      },
+      {
+        "id": "q-032",
+        "category": "Food",
+        "prompt": "In Japanese cuisine, what does the word \"unagi\" refer to?",
+        "answer": "Freshwater Eel",
+        "notes": ""
+      },
+      {
+        "id": "q-033",
+        "category": "STEM",
+        "prompt": "What is the name of the phenomenon that explains the change in pitch of a passing siren?",
+        "answer": "Doppler Effect",
+        "notes": ""
+      },
+      {
+        "id": "q-034",
+        "category": "History",
+        "prompt": "Who was the first Indian woman to serve as President of the Indian National Congress?",
+        "answer": "Sarojini Naidu",
+        "notes": "Annie Besant was the first woman overall (1917); Naidu was the first Indian woman (1925)."
+      },
+      {
+        "id": "q-035",
+        "category": "Sports",
+        "prompt": "Name two out of the three bowlers who have taken all 10 wickets in a single Test innings.",
+        "answer": "Jim Laker, Anil Kumble, Ajaz Patel",
+        "notes": ""
+      },
+      {
+        "id": "q-036",
+        "category": "History",
+        "prompt": "Who led the East India Company's forces at the Battle of Plassey (1757) which established British Rule in India?",
+        "answer": "Robert Clive",
+        "notes": ""
+      },
+      {
+        "id": "q-037",
+        "category": "Mythology",
+        "prompt": "Eurus, well known as Sherlock's sister from the Sherlock TV series, is the Greek God of what?",
+        "answer": "East Wind",
+        "notes": ""
+      },
+      {
+        "id": "q-038",
+        "category": "Brands",
+        "prompt": "Which car company was founded by Hitler's government as the \"car of the people\"?",
+        "answer": "Volkswagen",
+        "notes": ""
+      },
+      {
+        "id": "q-039",
+        "category": "STEM",
+        "prompt": "What is the scientific name for the blood cells that primarily carry oxygen in humans?",
+        "answer": "Erythrocytes",
+        "notes": ""
+      },
+      {
+        "id": "q-040",
+        "category": "Music",
+        "prompt": "Which Romanian song by a Moldovian band does David Guetta sample in this song?",
+        "answer": "Dragostea Din Tei by O-Zone",
+        "notes": "I Don't Wanna Wait"
+      },
+      {
+        "id": "q-041",
+        "category": "Music",
+        "prompt": "What conflict is sung about in this song by The Cranberries?",
+        "answer": "Ireland and U.K. (The Troubles)",
+        "notes": "Zombie by The Cranberries"
+      },
+      {
+        "id": "q-042",
+        "category": "Music",
+        "prompt": "Name one member of this band.",
+        "answer": "*NSYNC - JC Chasez, Justin Timberlake, Chris Kirkpatrick, Joey Fatone, Lance Bass",
+        "notes": "Bye Bye Bye by *NSYNC - The group is named after the last letter of each of the members' first names but Jason dropped out and was replaced by Lance"
+      },
+      {
+        "id": "q-043",
+        "category": "Bollywood",
+        "prompt": "Which movie is the dialogue \"Babumoshai, zindagi badi honi chahiye, lambi nahin\"?",
+        "answer": "Anand (1971)",
+        "notes": ""
+      },
+      {
+        "id": "q-044",
+        "category": "Food",
+        "prompt": "Ceviche is most closely associated with which country?",
+        "answer": "Peru",
+        "notes": ""
+      },
+      {
+        "id": "q-045",
+        "category": "History",
+        "prompt": "Who are \"the few\" referred to in the famous quote \"Never in the field of human conflict was so much owed by so many to so few\"?",
+        "answer": "Royal Air Force pilots in the Battle of Britain",
+        "notes": "The quote is by Winston Churchill"
+      },
+      {
+        "id": "q-046",
+        "category": "Bollywood",
+        "prompt": "Which movie is this song from?",
+        "answer": "Paap (2003)",
+        "notes": "Mann Ki Lagan"
+      },
+      {
+        "id": "q-047",
+        "category": "Bollywood",
+        "prompt": "Which band originally performed this song?",
+        "answer": "Jal",
+        "notes": "Lamhay"
+      },
+      {
+        "id": "q-048",
+        "category": "Bollywood",
+        "prompt": "Which movie is this song from?",
+        "answer": "Pyaar Ka Punchnama",
+        "notes": "Life Sahi Hai"
+      },
+      {
+        "id": "q-049",
+        "category": "Music",
+        "prompt": "Which song does Madonna sample in this song?",
+        "answer": "Gimme! Gimme! Gimme! (A Man After Midnight) by ABBA",
+        "notes": "Hung Up"
+      },
+      {
+        "id": "q-050",
+        "category": "Music",
+        "prompt": "This song is part of a three-track love-triangle on the same album. Name one of the other two tracks.",
+        "answer": "\"cardigan\" and \"betty\" from Folklore",
+        "notes": "august"
+      },
+      {
+        "id": "q-051",
+        "category": "STEM",
+        "prompt": "The duality of light means that light is both a ____ (4) and a ________ (7)",
+        "answer": "a wave and a particle",
+        "notes": ""
+      },
+      {
+        "id": "q-052",
+        "category": "STEM",
+        "prompt": "Snell's Law is associated with which phenomenon?",
+        "answer": "Refraction",
+        "notes": ""
+      },
+      {
+        "id": "q-053",
+        "category": "Rehan",
+        "prompt": "What is Rehan's favorite Bollywood movie?",
+        "answer": "Bhool Bhulaiyaa or Zindagi Na Milegi Dobara or Kabhi Khushi Kabhi Gham",
+        "notes": ""
+      },
+      {
+        "id": "q-054",
+        "category": "Rehan",
+        "prompt": "Who is Rehan's all-time favorite cricket player?",
+        "answer": "Rahul Dravid",
+        "notes": ""
+      },
+      {
+        "id": "q-055",
+        "category": "Rehan",
+        "prompt": "What is Rehan's favorite non-animated Hollywood movie?",
+        "answer": "Top Gun",
+        "notes": ""
+      },
+      {
+        "id": "q-056",
+        "category": "Rehan",
+        "prompt": "What is Rehan's favorite non-Indian dish?",
+        "answer": "Pasta in Pesto Sauce (or Truffle Sauce) or Chimichangas",
+        "notes": ""
+      },
+      {
+        "id": "q-057",
+        "category": "Literature",
+        "prompt": "What was the Fate of Ophelia in Shakespeare's play?",
+        "answer": "She drowned in a brook",
+        "notes": ""
+      },
+      {
+        "id": "q-058",
+        "category": "STEM",
+        "prompt": "What does pH stand for as in the pH scale?",
+        "answer": "Power (or Potential) of Hydrogen",
+        "notes": ""
+      }
+    ]
+  }
