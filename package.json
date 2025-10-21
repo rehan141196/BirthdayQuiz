@@ -1,0 +1,23 @@
+{
+    "name": "BirthdayQuiz",
+    "private": true,
+    "type": "module",
+    "homepage": "https://rehan141196.github.io/BirthdayQuiz/",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "test": "vitest",
+      "lint": "eslint .",
+      "lint:fix": "eslint . --fix",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.36.0",
+      "eslint": "^9.34.0",
+      "vitest": "^3.2.4",
+      "gh-pages": "^6.3.0",
+      "vite": "^6.3.5"
+    }
+  }
+  
