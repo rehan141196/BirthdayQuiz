@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+  <script type="module" crossorigin src="/BirthdayQuiz/assets/index-BM3EpN4T.js"></script>
+  <link rel="stylesheet" crossorigin href="/BirthdayQuiz/assets/index-COn3vXJK.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Intro Screen -->
+        <div id="intro-screen" class="screen">
+            <div class="screen-content">
+                <h1>Welcome To Rehan's Birthday Quiz</h1>
+                <div class="access-code-section">
+                    <input type="password" id="access-code-input" class="access-code-input" placeholder="Enter access code..." autocomplete="off">
+                    <p id="access-code-error" class="access-code-error hidden">Invalid access code. Please try again.</p>
+                </div>
+                <button id="begin-setup-btn" class="primary-btn" disabled>Begin Setup</button>
+            </div>
+        </div>
+
+        <!-- Team Setup Screen -->
+        <div id="setup-screen" class="screen hidden">
+            <div class="screen-content">
+                <h1>Team Setup</h1>
+                <div id="team-setup-container">
+                    <!-- Team setup content will be rendered here -->
+                </div>
+                <button id="start-game-btn" class="primary-btn">Start Game</button>
+            </div>
+        </div>
+
+        <!-- Category Grid Screen -->
+        <div id="grid-screen" class="screen hidden">
+            <div id="scoreboard-container">
+                <!-- Scoreboard will be rendered here -->
+            </div>
+            <div class="screen-content">
+                <div id="categories-container">
+                    <!-- Category grid will be rendered here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Question Screen -->
+        <div id="question-screen" class="screen hidden">
+            <div id="scoreboard-container-question">
+                <!-- Scoreboard will be rendered here -->
+            </div>
+            <div class="screen-content">
+                <div id="question-container">
+                    <!-- Question content will be rendered here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="end-screen" class="screen hidden">
+            <div class="screen-content">
+                <div id="end-container">
+                    <!-- End screen content will be rendered here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Screen -->
+        <div id="error-screen" class="screen hidden">
+            <div class="screen-content">
+                <h1>Error</h1>
+                <p id="error-message">Could not load game data. Please check teams.json and questions.json and try again.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

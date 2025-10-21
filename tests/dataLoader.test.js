@@ -211,7 +211,7 @@ describe('Data Loader', () => {
   describe('questions.json validation', () => {
     it('should have unique question IDs in the actual questions.json file', async () => {
       // Load the actual questions.json file using Node.js fs
-      const questionsPath = resolve(process.cwd(), 'questions.json');
+      const questionsPath = resolve(process.cwd(), 'public/questions.json');
       const fileContent = readFileSync(questionsPath, 'utf-8');
       const data = JSON.parse(fileContent);
 
