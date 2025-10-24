@@ -2,12 +2,12 @@
     "teams": [
       {
         "id": "team-a",
-        "name": "Team Lightning",
+        "name": "Team Hera",
         "members": ["Vasudha (c)", "Vivek", "Rohan", "Mihika", "Anya", "Hetvi"]
       },
       {
         "id": "team-b",
-        "name": "Team Thunder",
+        "name": "Team Pheri",
         "members": ["Kanika (c)", "Joey", "Neev", "Aastha", "Tanaya", "Ashni"]
       }
     ]
