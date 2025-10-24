@@ -7,6 +7,7 @@ yarn-error.log*
 # Build outputs
 build/
 .vite/
+dist/
 
 # Coverage reports
 coverage/
