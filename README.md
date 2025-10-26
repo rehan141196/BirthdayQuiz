@@ -1,4 +1,4 @@
-# Quiz Game
+# Rehan's Birthday Quiz
 
 A lightweight, modern-looking quiz game built for two teams with category selection, wagers, pass rules, and automatic scoring. Designed to be run from a laptop and shared to a TV via screen sharing.
 
@@ -142,7 +142,7 @@ npm run lint
 
 ### Data Loading Issues
 If you see "Could not load game data" error:
-1. Check that `teams.json` and `questions.json` exist in the project root
+1. Check that `teams.json` and `questions.json` exist in the `public` directory
 2. Validate JSON syntax using a JSON validator
 3. Ensure files are accessible via the static server
 
