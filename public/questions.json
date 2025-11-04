@@ -94,7 +94,7 @@
     {
       "id": "q-014",
       "category": "History",
-      "prompt": "Name any one of the two now suspended trains between India and Pakistan.",
+      "prompt": "Name any one of the two now suspended trains between India and Pakistan",
       "answer": "Samjhauta Express and Thar Express",
       "notes": ""
     },
@@ -108,7 +108,7 @@
     {
       "id": "q-016",
       "category": "Geography",
-      "prompt": "Name 10 countries that share land borders with Russia.",
+      "prompt": "Name 10 countries that share land borders with Russia",
       "answer": "Norway, Finland, Estonia, Latvia, Belarus, Ukraine, Mongolia, China, Kazakhstan, North Korea, Azerbaijan, Georgia, Poland, Lithuania",
       "notes": ""
     },
@@ -136,7 +136,7 @@
     {
       "id": "q-020",
       "category": "STEM",
-      "prompt": "What is the sum of the first 999 natural numbers",
+      "prompt": "What is the sum of the first 999 natural numbers?",
       "answer": "499500",
       "notes": "Formula n(n+1)/2"
     },
@@ -215,12 +215,12 @@
       "category": "History",
       "prompt": "Who was the first Indian woman to serve as President of the Indian National Congress?",
       "answer": "Sarojini Naidu",
-      "notes": "Annie Besant was the first woman overall (1917); Naidu was the first Indian woman (1925)."
+      "notes": "Annie Besant was the first woman overall (1917); Naidu was the first Indian woman (1925)"
     },
     {
       "id": "q-032",
       "category": "Sports",
-      "prompt": "Name two out of the three bowlers who have taken all 10 wickets in a single Test innings.",
+      "prompt": "Name two out of the three bowlers who have taken all 10 wickets in a single Test innings",
       "answer": "Jim Laker, Anil Kumble, Ajaz Patel",
       "notes": ""
     },
@@ -235,7 +235,7 @@
       "id": "q-034",
       "category": "Mythology",
       "prompt": "Eurus, well known as Sherlock's sister from the Sherlock TV series, is the Greek God of what?",
-      "answer": "East Wind",
+      "answer": "The East Wind",
       "notes": ""
     },
     {
@@ -269,7 +269,7 @@
     {
       "id": "q-039",
       "category": "Music",
-      "prompt": "Name one member of this band.",
+      "prompt": "Name one member of this band",
       "answer": "*NSYNC - JC Chasez, Justin Timberlake, Chris Kirkpatrick, Joey Fatone, Lance Bass",
       "notes": "Bye Bye Bye by *NSYNC - The group is named after the last letter of each of the members' first names but Jason dropped out and was replaced by Lance"
     },
@@ -318,7 +318,7 @@
     {
       "id": "q-046",
       "category": "Music",
-      "prompt": "This song is part of a three-track love-triangle on the same album. Name one of the other two tracks.",
+      "prompt": "This song is part of a three track love triangle on the same album. Name one of the other two tracks",
       "answer": "\"cardigan\" and \"betty\" from Folklore",
       "notes": "august"
     },
