@@ -17,8 +17,8 @@
     {
       "id": "q-003",
       "category": "Sports",
-      "prompt": "At which ground did Kapil Dev score his iconic 175* in the 1983 Cricket World Cup?",
-      "answer": "The Nevill Ground at Tunbridge Wells",
+      "prompt": "Name the first Indian men's player and the first Indian women's player to acheive the feat of scoring a century in all three formats of the game",
+      "answer": "Suresh Raina and Smriti Mandhana",
       "notes": ""
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "q-007",
       "category": "STEM",
-      "prompt": "Who is the only person to receive a Noble Prize in two different fields?",
+      "prompt": "Who is the only person to receive a Noble Prize in two different scientific fields?",
       "answer": "Marie Curie - Physics and Chemistry",
       "notes": ""
     },
@@ -129,9 +129,9 @@
     {
       "id": "q-019",
       "category": "Bollywood",
-      "prompt": "Which movie won the Filmfare award for best movie in 1976?",
-      "answer": "Deewar",
-      "notes": ""
+      "prompt": "Which movie is this song from?",
+      "answer": "Brahmachari (1968)",
+      "notes": "Aajkal Tere Mere Pyar Ke Charche"
     },
     {
       "id": "q-020",
@@ -220,8 +220,8 @@
     {
       "id": "q-032",
       "category": "Sports",
-      "prompt": "Name two out of the three bowlers who have taken all 10 wickets in a single Test innings",
-      "answer": "Jim Laker, Anil Kumble, Ajaz Patel",
+      "prompt": "At which ground did Kapil Dev score his iconic 175* in the 1983 Cricket World Cup?",
+      "answer": "The Nevill Ground at Tunbridge Wells",
       "notes": ""
     },
     {
@@ -248,8 +248,8 @@
     {
       "id": "q-036",
       "category": "STEM",
-      "prompt": "What is the scientific name for the blood cells that primarily carry oxygen in humans?",
-      "answer": "Erythrocytes",
+      "prompt": "What are the two types of vascular tissues in plants that transport water, minerals and food",
+      "answer": "Xylem and Phloem",
       "notes": ""
     },
     {
@@ -325,7 +325,7 @@
     {
       "id": "q-047",
       "category": "STEM",
-      "prompt": "The duality of light means that light is both a ____ (4) and a ________ (7)",
+      "prompt": "The duality of light means that light is both a ________ and a ________",
       "answer": "a wave and a particle",
       "notes": ""
     },
@@ -340,7 +340,7 @@
       "id": "q-049",
       "category": "Rehan",
       "prompt": "What is Rehan's favorite Bollywood movie?",
-      "answer": "Bhool Bhulaiyaa or Zindagi Na Milegi Dobara or Kabhi Khushi Kabhi Gham",
+      "answer": "Bhool Bhulaiyaa / Zindagi Na Milegi Dobara / Kabhi Khushi Kabhi Gham",
       "notes": ""
     },
     {
@@ -361,7 +361,7 @@
       "id": "q-052",
       "category": "Rehan",
       "prompt": "What is Rehan's favorite non-Indian dish?",
-      "answer": "Pasta in Pesto Sauce (or Truffle Sauce) or Chimichangas",
+      "answer": "Pasta in Pesto Sauce (or Truffle Sauce) / Chimichangas",
       "notes": ""
     },
     {
@@ -395,16 +395,16 @@
     {
       "id": "q-057",
       "category": "Bollywood",
-      "prompt": "Which movie is this song from?",
-      "answer": "The Killer",
-      "notes": "Teri Yaadon Mein"
+      "prompt": "What was the first Bollywood film to feature Amitabh Bachchan and Shah Rukh Khan together?",
+      "answer": "Mohabbatein (2000)",
+      "notes": ""
     },
     {
       "id": "q-058",
       "category": "Bollywood",
-      "prompt": "What was the first Bollywood film to feature Amitabh Bachchan and Shah Rukh Khan together?",
-      "answer": "Mohabbatein (2000)",
-      "notes": ""
+      "prompt": "Which movie is this song from?",
+      "answer": "The Killer",
+      "notes": "Teri Yaadon Mein"
     }
   ]
 }
