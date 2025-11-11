@@ -87,7 +87,7 @@
     {
       "id": "q-013",
       "category": "History",
-      "prompt": "The Entente Cordial forms the basis of the current foreign relations between which two countries?",
+      "prompt": "The Entente Cordiale forms the basis of the current foreign relations between which two countries?",
       "answer": "England and France",
       "notes": ""
     },
@@ -136,7 +136,7 @@
     {
       "id": "q-020",
       "category": "STEM",
-      "prompt": "What is the sum of the first 999 natural numbers?",
+      "prompt": "What is the sum of all integers from 1 to 999 inclusive?",
       "answer": "499500",
       "notes": "Formula n(n+1)/2"
     },

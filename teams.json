@@ -1,15 +1,14 @@
 {
-    "teams": [
-      {
-        "id": "team-a",
-        "name": "Team Hera",
-        "members": ["Vasudha (c)", "Vivek", "Rohan", "Mihika", "Hetvi", "Reya"]
-      },
-      {
-        "id": "team-b",
-        "name": "Team Pheri",
-        "members": ["Kanika (c)", "Joey", "Neev", "Tanaya", "Ashni", "Vignesh", "Reya+1"]
-      }
-    ]
-  }
-  
+  "teams": [
+    {
+      "id": "team-a",
+      "name": "Team Hera",
+      "members": ["Vasudha (c)", "Vivek", "Rohan", "Mihika", "Vignesh", "Reya"]
+    },
+    {
+      "id": "team-b",
+      "name": "Team Pheri",
+      "members": ["Kanika (c)", "Joey", "Neev", "Tanaya", "Ashni", "Hetvi", "Aaditi"]
+    }
+  ]
+}
