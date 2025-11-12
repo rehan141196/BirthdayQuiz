@@ -304,9 +304,9 @@
     {
       "id": "q-044",
       "category": "Bollywood",
-      "prompt": "Which movie is this song from?",
-      "answer": "Pyaar Ka Punchnama",
-      "notes": "Life Sahi Hai"
+      "prompt": "What was the first Bollywood film to feature Amitabh Bachchan and Shah Rukh Khan together?",
+      "answer": "Mohabbatein (2000)",
+      "notes": ""
     },
     {
       "id": "q-045",
@@ -395,9 +395,9 @@
     {
       "id": "q-057",
       "category": "Bollywood",
-      "prompt": "What was the first Bollywood film to feature Amitabh Bachchan and Shah Rukh Khan together?",
-      "answer": "Mohabbatein (2000)",
-      "notes": ""
+      "prompt": "Which album is this song from?",
+      "answer": "Ustad & the Divas",
+      "notes": "Leja Leja"
     },
     {
       "id": "q-058",
