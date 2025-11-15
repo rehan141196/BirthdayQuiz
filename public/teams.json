@@ -3,12 +3,12 @@
     {
       "id": "team-a",
       "name": "Team Hera",
-      "members": ["Vasudha (c)", "Vivek", "Rohan", "Mihika", "Vignesh", "Reya"]
+      "members": ["Vasudha (c)", "Neev", "Rohan", "Mihika", "Vignesh", "Reya", "Simran"]
     },
     {
       "id": "team-b",
       "name": "Team Pheri",
-      "members": ["Kanika (c)", "Joey", "Neev", "Tanaya", "Ashni", "Hetvi", "Aaditi"]
+      "members": ["Kanika (c)", "Joey", "Vivek", "Tanaya", "Ashni", "Hetvi", "Aaditi"]
     }
   ]
 }
