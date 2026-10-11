@@ -2,12 +2,11 @@
 
 import { state } from './state.js';
 
-export async function loadGameData() {
+export async function loadGameData(year) {
   try {
-    // Load both JSON files
     const [teamsResponse, questionsResponse] = await Promise.all([
-      fetch('./teams.json'),
-      fetch('./questions.json')
+      fetch(`./teams-${year}.json`),
+      fetch(`./questions-${year}.json`)
     ]);
 
     if (!teamsResponse.ok || !questionsResponse.ok) {

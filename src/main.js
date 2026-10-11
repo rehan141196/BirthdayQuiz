@@ -23,15 +23,6 @@ class QuizApp {
     // Set up event listeners
     this.setupEventListeners();
 
-    // Load game data
-    const dataLoaded = await loadGameData();
-
-    if (!dataLoaded) {
-      this.showError();
-      return;
-    }
-
-    // Show intro screen
     this.updateUI();
     this.initializeAuth();
   }
@@ -39,6 +30,7 @@ class QuizApp {
   initializeAuth() {
     const accessCodeInput = qs('#access-code-input');
     const beginSetupBtn = qs('#begin-setup-btn');
+    const yearSelect = qs('#year-select');
 
     // Clear authentication state and input field when returning to intro screen
     // This ensures security when page is refreshed at end of game
@@ -57,6 +49,11 @@ class QuizApp {
       if (beginSetupBtn) {
         beginSetupBtn.disabled = true;
         beginSetupBtn.textContent = 'Enter Access Code';
+        show(beginSetupBtn);
+      }
+
+      if (yearSelect) {
+        hide(yearSelect);
       }
     }
   }
@@ -65,7 +62,6 @@ class QuizApp {
     // Access code input
     const accessCodeInput = qs('#access-code-input');
     const accessCodeError = qs('#access-code-error');
-    const beginSetupBtn = qs('#begin-setup-btn');
 
     // Check authentication on input change
     accessCodeInput?.addEventListener('input', async (e) => {
@@ -74,11 +70,9 @@ class QuizApp {
 
       if (await validateAccessCode(code)) {
         setAuthenticated();
-        beginSetupBtn.disabled = false;
-        beginSetupBtn.textContent = 'Begin Setup';
+        this.showYearSelect();
       } else {
-        beginSetupBtn.disabled = true;
-        beginSetupBtn.textContent = 'Enter Access Code';
+        this.hideYearSelect();
       }
     });
 
@@ -92,12 +86,26 @@ class QuizApp {
       }
     });
 
-    // Begin Setup button
-    beginSetupBtn?.addEventListener('click', () => {
-      if (isAuthenticated()) {
-        state.screen = 'setup';
-        this.updateUI();
+    const yearSelect = qs('#year-select');
+    yearSelect?.addEventListener('click', async (e) => {
+      const yearCard = e.target.closest('.year-card');
+      if (!yearCard || !isAuthenticated()) {
+        return;
       }
+
+      const year = yearCard.dataset.year;
+      yearSelect.querySelectorAll('.year-card').forEach(card => {
+        card.disabled = true;
+      });
+
+      const dataLoaded = await loadGameData(year);
+      if (!dataLoaded) {
+        this.showError();
+        return;
+      }
+
+      state.screen = 'setup';
+      this.updateUI();
     });
 
     // Start Game button
@@ -153,6 +161,32 @@ class QuizApp {
 
       default:
         console.warn('Unknown screen:', state.screen);
+    }
+  }
+
+  showYearSelect() {
+    const beginSetupBtn = qs('#begin-setup-btn');
+    const yearSelect = qs('#year-select');
+
+    if (beginSetupBtn) {
+      hide(beginSetupBtn);
+    }
+    if (yearSelect) {
+      show(yearSelect);
+    }
+  }
+
+  hideYearSelect() {
+    const beginSetupBtn = qs('#begin-setup-btn');
+    const yearSelect = qs('#year-select');
+
+    if (beginSetupBtn) {
+      beginSetupBtn.disabled = true;
+      beginSetupBtn.textContent = 'Enter Access Code';
+      show(beginSetupBtn);
+    }
+    if (yearSelect) {
+      hide(yearSelect);
     }
   }
 

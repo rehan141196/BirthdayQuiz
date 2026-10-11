@@ -44,8 +44,10 @@ describe('Data Loader', () => {
           json: () => Promise.resolve(questionsData)
         });
 
-      const result = await loadGameData();
+      const result = await loadGameData(2025);
 
+      expect(mockFetch).toHaveBeenCalledWith('./teams-2025.json');
+      expect(mockFetch).toHaveBeenCalledWith('./questions-2025.json');
       expect(result).toBe(true);
       expect(state.teams[0].name).toBe('Test Team A');
       expect(state.teams[0].members).toEqual(['Alice', 'Bob']);
@@ -73,7 +75,7 @@ describe('Data Loader', () => {
           json: () => Promise.resolve(questionsData)
         });
 
-      const result = await loadGameData();
+      const result = await loadGameData(2025);
 
       expect(result).toBe(true);
       expect(state.teams[0].name).toBe('Team A'); // Default values
@@ -103,7 +105,7 @@ describe('Data Loader', () => {
           json: () => Promise.resolve(questionsData)
         });
 
-      const result = await loadGameData();
+      const result = await loadGameData(2025);
 
       expect(result).toBe(true);
       expect(state.teams[0].name).toBe('Valid Team');
@@ -115,7 +117,7 @@ describe('Data Loader', () => {
     it('should handle network errors', async () => {
       mockFetch.mockRejectedValueOnce(new Error('Network error'));
 
-      const result = await loadGameData();
+      const result = await loadGameData(2025);
 
       expect(result).toBe(false);
     });
@@ -123,7 +125,7 @@ describe('Data Loader', () => {
     it('should handle 404 errors', async () => {
       mockFetch.mockResolvedValueOnce({ ok: false, status: 404 });
 
-      const result = await loadGameData();
+      const result = await loadGameData(2025);
 
       expect(result).toBe(false);
     });
@@ -135,7 +137,7 @@ describe('Data Loader', () => {
           json: () => Promise.reject(new Error('Invalid JSON'))
         });
 
-      const result = await loadGameData();
+      const result = await loadGameData(2025);
 
       expect(result).toBe(false);
     });
@@ -163,8 +165,10 @@ describe('Data Loader', () => {
           json: () => Promise.resolve(questionsData)
         });
 
-      const result = await loadGameData();
+      const result = await loadGameData(2026);
 
+      expect(mockFetch).toHaveBeenCalledWith('./teams-2026.json');
+      expect(mockFetch).toHaveBeenCalledWith('./questions-2026.json');
       expect(result).toBe(true);
       expect(state.questionsByCategory.get('Cat1')).toHaveLength(1); // Only valid question
       expect(state.questionsByCategory.get('Cat2')).toHaveLength(1); // Only valid question
@@ -209,9 +213,9 @@ describe('Data Loader', () => {
   });
 
   describe('questions.json validation', () => {
-    it('should have unique question IDs in the actual questions.json file', async () => {
-      // Load the actual questions.json file using Node.js fs
-      const questionsPath = resolve(process.cwd(), 'public/questions.json');
+    it('should have unique question IDs in the actual questions-2025.json file', async () => {
+      // Load the actual questions-2025.json file using Node.js fs
+      const questionsPath = resolve(process.cwd(), 'public/questions-2025.json');
       const fileContent = readFileSync(questionsPath, 'utf-8');
       const data = JSON.parse(fileContent);
 

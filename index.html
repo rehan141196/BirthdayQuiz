@@ -17,6 +17,14 @@
                     <p id="access-code-error" class="access-code-error hidden">Invalid access code. Please try again.</p>
                 </div>
                 <button id="begin-setup-btn" class="primary-btn" disabled>Begin Setup</button>
+                <div id="year-select" class="year-select hidden">
+                    <button type="button" class="year-card" data-year="2025">
+                        <span class="year-card-label">2025 Questions</span>
+                    </button>
+                    <button type="button" class="year-card" data-year="2026">
+                        <span class="year-card-label">2026 Questions</span>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -68,7 +76,7 @@
         <div id="error-screen" class="screen hidden">
             <div class="screen-content">
                 <h1>Error</h1>
-                <p id="error-message">Could not load game data. Please check teams.json and questions.json and try again.</p>
+                <p id="error-message">Could not load game data. Please check the year data files and try again.</p>
             </div>
         </div>
     </div>

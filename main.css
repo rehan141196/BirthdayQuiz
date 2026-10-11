@@ -160,6 +160,10 @@
   .primary-btn:disabled::before {
     display: none;
   }
+
+  .primary-btn.hidden {
+    display: none;
+  }
   
   /* Access Code Section */
   .access-code-section {
@@ -199,6 +203,45 @@
   
   .access-code-error.hidden {
     display: none;
+  }
+
+  .year-select {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 640px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .year-select.hidden {
+    display: none;
+  }
+
+  .year-card {
+    flex: 1 1 220px;
+    min-height: 140px;
+    background: linear-gradient(135deg, var(--bg-surface), var(--bg-secondary));
+    color: var(--text-primary);
+    border: 2px solid var(--border);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 217, 255, 0.12);
+  }
+
+  .year-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 217, 255, 0.25);
+  }
+
+  .year-card:active {
+    transform: translateY(0);
   }
   
   .secondary-btn {
