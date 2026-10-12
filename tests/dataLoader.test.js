@@ -1,7 +1,7 @@
 // Data loading and parsing tests
 
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { loadGameData, getNextQuestion } from '../src/dataLoader.js';
+import { loadGameData, getNextQuestion, questionsFileExists } from '../src/dataLoader.js';
 import { state, resetState } from '../src/state.js';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
@@ -244,6 +244,58 @@ describe('Data Loader', () => {
       }
 
       expect(uniqueIds.size).toBe(questionIds.length);
+    });
+  });
+
+  describe('questionsFileExists', () => {
+    it('should return true for a valid questions file', async () => {
+      mockFetch.mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.resolve({ questions: [] })
+      });
+
+      const result = await questionsFileExists(2026);
+
+      expect(mockFetch).toHaveBeenCalledWith('./questions-2026.json', { cache: 'no-store' });
+      expect(result).toBe(true);
+    });
+
+    it('should return false when the file is missing (404)', async () => {
+      mockFetch.mockResolvedValueOnce({ ok: false, status: 404 });
+
+      const result = await questionsFileExists(2026);
+
+      expect(result).toBe(false);
+    });
+
+    it('should return false when the server returns non-JSON content with a 200', async () => {
+      mockFetch.mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.reject(new SyntaxError('Unexpected token <'))
+      });
+
+      const result = await questionsFileExists(2026);
+
+      expect(result).toBe(false);
+    });
+
+    it('should return false when the JSON has no questions array', async () => {
+      mockFetch.mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.resolve({ something: 'else' })
+      });
+
+      const result = await questionsFileExists(2026);
+
+      expect(result).toBe(false);
+    });
+
+    it('should return false on network errors', async () => {
+      mockFetch.mockRejectedValueOnce(new Error('Network error'));
+
+      const result = await questionsFileExists(2026);
+
+      expect(result).toBe(false);
     });
   });
 });
