@@ -53,6 +53,20 @@ export async function loadGameData(year) {
   }
 }
 
+// Returns true only if questions-<year>.json exists and contains a valid questions array.
+export async function questionsFileExists(year) {
+  try {
+    const response = await fetch(`./questions-${year}.json`, { cache: 'no-store' });
+    if (!response.ok) {
+      return false;
+    }
+    const data = await response.json();
+    return Array.isArray(data?.questions);
+  } catch {
+    return false;
+  }
+}
+
 function processQuestions(questions) {
   // Clear existing questions
   state.questionsByCategory.clear();

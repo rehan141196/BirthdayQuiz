@@ -1,7 +1,7 @@
 // Main application entry point
 
 import { state } from './state.js';
-import { loadGameData } from './dataLoader.js';
+import { loadGameData, questionsFileExists } from './dataLoader.js';
 import { startGame } from './gameLogic.js';
 import { initScreens, showScreen } from './ui/screens.js';
 import { renderSetup } from './ui/renderSetup.js';
@@ -94,6 +94,12 @@ class QuizApp {
       }
 
       const year = yearCard.dataset.year;
+      
+      if (!(await questionsFileExists(year))) {
+        alert('Did you really think I am that stupid :)');
+        return;
+      }
+      
       yearSelect.querySelectorAll('.year-card').forEach(card => {
         card.disabled = true;
       });
