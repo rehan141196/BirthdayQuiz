@@ -1,0 +1,179 @@
+{
+  "questions": [    
+    {
+      "id": "q-001",
+      "category": "Bollywood",
+      "prompt": "What are the two places in Purani Dilli mentioned in the song \"Kajra Re\"?",
+      "answer": "Ballimaran and Daribey",
+      "notes": ""
+    },
+    {
+      "id": "q-002",
+      "category": "Sports",
+      "prompt": "Who was the last F1 driver to hit the DRS button?",
+      "answer": "Kimi Antonelli",
+      "notes": ""
+    },
+    {
+      "id": "q-003",
+      "category": "Sports",
+      "prompt": "At which sports event was this iconic piece of commentary heard: \"They think it's all over... it is now!\"?",
+      "answer": "1966 FIFA World Cup Final - England vs West Germany",
+      "notes": ""
+    },
+    {
+      "id": "q-004",
+      "category": "History",
+      "prompt": "The Molotov-Ribbentrop Pact was signed by which two countries in the 1930s?",
+      "answer": "The Soviet Union and Germany",
+      "notes": ""
+    },
+    {
+      "id": "q-005",
+      "category": "Music",
+      "prompt": "Which cricketer recorded a song with Asha Bhosle?",
+      "answer": "Brett Lee",
+      "notes": "Haan Main Tumhara Hoon"
+    },
+    {
+      "id": "q-006",
+      "category": "Geography",
+      "prompt": "There are three EU countries that drive on the left. Name any two.",
+      "answer": "Ireland, Malta and Cyprus",
+      "notes": ""
+    },
+    {
+      "id": "q-007",
+      "category": "History",
+      "prompt": "What was another name given to the Eastern Roman Empire, with its capital in Constantinople?",
+      "answer": "The Byzantine Empire",
+      "notes": ""
+    },
+    {
+      "id": "q-008",
+      "category": "History",
+      "prompt": "Who was the US President when the Soviet Union officially collapsed?",
+      "answer": "George H.W. Bush",
+      "notes": ""
+    },
+    {
+      "id": "q-009",
+      "category": "History",
+      "prompt": "What was Operation Blue Star?",
+      "answer": "An operation to remove militants who had taken over the Golden Temple",
+      "notes": ""
+    },
+    {
+      "id": "q-010",
+      "category": "Geography",
+      "prompt": "The Cook Strait separates which two islands in the Pacific?",
+      "answer": "The North Island and the South Island of New Zealand",
+      "notes": ""
+    },
+    {
+      "id": "q-011",
+      "category": "History",
+      "prompt": "What was the name of the ship sunk by German U-boats that helped bring the United States into the First World War?",
+      "answer": "The Lusitania",
+      "notes": ""
+    },
+    {
+      "id": "q-012",
+      "category": "Sports",
+      "prompt": "What was the first Grand Slam tournament to adopt the 10-point tiebreak to decide the final set of a tied match?",
+      "answer": "The Australian Open",
+      "notes": ""
+    },
+    {
+      "id": "q-013",
+      "category": "STEM",
+      "prompt": "Which planets have a solid surface that you can stand on?",
+      "answer": "Mercury, Venus, Earth and Mars",
+      "notes": ""
+    },
+    {
+      "id": "q-014",
+      "category": "History",
+      "prompt": "What is the Holy Trinity in Christianity?",
+      "answer": "The Father, the Son and the Holy Spirit",
+      "notes": ""
+    },
+    {
+      "id": "q-015",
+      "category": "Geography",
+      "prompt": "What is the longest direct flight currently in operation?",
+      "answer": "Singapore to New York",
+      "notes": ""
+    },
+    {
+      "id": "q-016",
+      "category": "Geography",
+      "prompt": "What are all the end stations on the Northern line?",
+      "answer": "Morden, Battersea Power Station, Mill Hill East, Edgeware and High Barnet",
+      "notes": ""
+    },
+    {
+      "id": "q-017",
+      "category": "Geography",
+      "prompt": "Located near the Strand, what is the only street in London where cars drive on the right-hand side of the road?",
+      "answer": "Savoy Court",
+      "notes": ""
+    },
+    {
+      "id": "q-018",
+      "category": "Rehan",
+      "prompt": "What is Rehan's second favorite animal?",
+      "answer": "Hippopotamus",
+      "notes": ""
+    },
+    {
+      "id": "q-019",
+      "category": "Rehan",
+      "prompt": "Name 6 countries in Europe that Rehan has not been to?",
+      "answer": "Russia, Ukraine, Belarus, Albania, Andorra, Bosnia & Herzegovina, Moldova, Montenegro, San Marino",
+      "notes": ""
+    },
+    {
+      "id": "q-020",
+      "category": "Sports",
+      "prompt": "Identify the sportsperson from the audio.",
+      "answer": "Lando Norris",
+      "notes": ""
+    },
+    {
+      "id": "q-021",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "City 1",
+      "notes": ""
+    },
+    {
+      "id": "q-022",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "City 2",
+      "notes": ""
+    },
+    {
+      "id": "q-023",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "City 3",
+      "notes": ""
+    },
+    {
+      "id": "q-024",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "City 4",
+      "notes": ""
+    },
+    {
+      "id": "q-025",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "City 5",
+      "notes": ""
+    }
+  ]
+}
