@@ -3,12 +3,12 @@
     {
       "id": "team-a",
       "name": "Team Chole",
-      "members": ["Megha (c)", "Vasudha", "Vivek", "Nitika", "Ashni", "Karl", "Claire", "Sid", "Aishwarya"]
+      "members": ["Megha (c)", "Vasudha", "Vivek", "Nitika", "Ashni", "Claire", "Sid", "Aishwarya", "Simran"]
     },
     {
       "id": "team-b",
       "name": "Team Bhature",
-      "members": ["Krisha (c)", "Tanaya", "Aastha", "Joey", "Amee", "Sonna", "Ashwin", "Asmita", "Vignesh", "Simran"]
+      "members": ["Krisha (c)", "Tanaya", "Aastha", "Joey", "Amee", "Sonna", "Ashwin", "Asmita", "Vignesh"]
     }
   ]
 }
