@@ -2,13 +2,13 @@
   "teams": [
     {
       "id": "team-a",
-      "name": "Team Alpha",
-      "members": ["Member A1", "Member A2", "Member A3"]
+      "name": "Team Chole",
+      "members": ["Megha (c)", "Vasudha", "Vivek", "Nitika", "Ashni", "Karl", "Claire", "Sid", "Aishwarya"]
     },
     {
       "id": "team-b",
-      "name": "Team Beta",
-      "members": ["Member B1", "Member B2", "Member B3"]
+      "name": "Team Bhature",
+      "members": ["Krisha (c)", "Tanaya", "Aastha", "Joey", "Amee", "Sonna", "Ashwin", "Asmita", "Vignesh", "Simran"]
     }
   ]
 }
