@@ -1,0 +1,354 @@
+{
+  "questions": [    
+    {
+      "id": "q-001",
+      "category": "Bollywood",
+      "prompt": "What are the two places in Old Delhi mentioned in the song \"Kajra Re\"?",
+      "answer": "Ballimaran and Dariba Kalan",
+      "notes": ""
+    },
+    {
+      "id": "q-002",
+      "category": "Sports",
+      "prompt": "Which F1 driver, in his rookie season, was the last driver to hit the DRS button?",
+      "answer": "Kimi Antonelli",
+      "notes": ""
+    },
+    {
+      "id": "q-003",
+      "category": "Sports",
+      "prompt": "Which international cricket stadium in India shares its name with a tube stop in London?",
+      "answer": "Green Park (Kanpur)",
+      "notes": ""
+    },
+    {
+      "id": "q-004",
+      "category": "History",
+      "prompt": "The Molotov-Ribbentrop Pact was signed by which two countries in the 1930s?",
+      "answer": "The Soviet Union and Germany",
+      "notes": ""
+    },
+    {
+      "id": "q-005",
+      "category": "Bollywood",
+      "prompt": "Which cricketer recorded a song with Asha Bhosle?",
+      "answer": "Brett Lee",
+      "notes": "Haan Main Tumhara Hoon"
+    },
+    {
+      "id": "q-006",
+      "category": "Geography",
+      "prompt": "Name three EU countries that drive on the left.",
+      "answer": "Ireland, Malta and Cyprus",
+      "notes": ""
+    },
+    {
+      "id": "q-007",
+      "category": "History",
+      "prompt": "What was another name given to the Eastern Roman Empire, with its capital in Constantinople?",
+      "answer": "The Byzantine Empire",
+      "notes": ""
+    },
+    {
+      "id": "q-008",
+      "category": "History",
+      "prompt": "Who was the US President when the Soviet Union officially collapsed?",
+      "answer": "George H.W. Bush",
+      "notes": ""
+    },
+    {
+      "id": "q-009",
+      "category": "History",
+      "prompt": "What was Operation Blue Star?",
+      "answer": "An operation to remove militants who had taken over the Golden Temple",
+      "notes": ""
+    },
+    {
+      "id": "q-010",
+      "category": "Geography",
+      "prompt": "The Cook Strait separates which two islands in the Pacific?",
+      "answer": "The North Island and the South Island of New Zealand",
+      "notes": ""
+    },
+    {
+      "id": "q-011",
+      "category": "History",
+      "prompt": "What was the name of the ship sunk by German U-boats that helped bring the United States into the First World War?",
+      "answer": "RMS Lusitania",
+      "notes": ""
+    },
+    {
+      "id": "q-012",
+      "category": "Sports",
+      "prompt": "What was the first Grand Slam tournament to adopt the 10-point tiebreak to decide the final set of a tied match?",
+      "answer": "The Australian Open",
+      "notes": ""
+    },
+    {
+      "id": "q-013",
+      "category": "STEM",
+      "prompt": "Which planets have a solid surface that you can theoretically stand on?",
+      "answer": "Mercury, Venus, Earth and Mars",
+      "notes": ""
+    },
+    {
+      "id": "q-014",
+      "category": "Music & Movies",
+      "prompt": "What war does this song reference?",
+      "answer": "The Vietnam War",
+      "notes": "Born in the U.S.A by Bruce Springsteen"
+    },
+    {
+      "id": "q-015",
+      "category": "Geography",
+      "prompt": "What is the longest direct flight currently in operation?",
+      "answer": "Singapore to New York",
+      "notes": ""
+    },
+    {
+      "id": "q-016",
+      "category": "Geography",
+      "prompt": "What are all the end stations on the Northern line?",
+      "answer": "Morden, Battersea Power Station, Mill Hill East, Edgeware and High Barnet",
+      "notes": ""
+    },
+    {
+      "id": "q-017",
+      "category": "Geography",
+      "prompt": "What is the only street in London where cars drive on the right-hand side of the road?",
+      "answer": "Savoy Court",
+      "notes": ""
+    },
+    {
+      "id": "q-018",
+      "category": "Rehan",
+      "prompt": "What is Rehan's second favorite animal?",
+      "answer": "Hippopotamus",
+      "notes": ""
+    },
+    {
+      "id": "q-019",
+      "category": "Rehan",
+      "prompt": "Name 6 countries in Europe that Rehan has not been to.",
+      "answer": "Russia, Ukraine, Belarus, Albania, Andorra, Bosnia & Herzegovina, Moldova, Montenegro, San Marino",
+      "notes": ""
+    },
+    {
+      "id": "q-020",
+      "category": "Sports",
+      "prompt": "Identify the sportsperson from the audio.",
+      "answer": "Lando Norris",
+      "notes": "https://www.youtube.com/watch?v=irj8xM1yS58&t=149s 2:29 to 2:46"
+    },
+    {
+      "id": "q-021",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "New York",
+      "notes": ""
+    },
+    {
+      "id": "q-022",
+      "category": "RehanGuessr",
+      "prompt": "Identify the country from the image.",
+      "answer": "Vatican City",
+      "notes": ""
+    },
+    {
+      "id": "q-023",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "Budapest",
+      "notes": ""
+    },
+    {
+      "id": "q-024",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "Vienna",
+      "notes": ""
+    },
+    {
+      "id": "q-025",
+      "category": "RehanGuessr",
+      "prompt": "Identify the city from the image.",
+      "answer": "Prague",
+      "notes": ""
+    },
+    {
+      "id": "q-026",
+      "category": "STEM",
+      "prompt": "What 5 chemical elements is DNA made of?",
+      "answer": "Carbon, Oxygen, Nitrogen, Hydrogen and Phosphorus",
+      "notes": ""
+    },
+    {
+      "id": "q-027",
+      "category": "History",
+      "prompt": "How many Rupees is 12 Annas?",
+      "answer": "Rs. 0.75",
+      "notes": ""
+    },
+    {
+      "id": "q-028",
+      "category": "RehanGuessr",
+      "prompt": "Identify the country from the image.",
+      "answer": "Kosovo",
+      "notes": ""
+    },
+    {
+      "id": "q-029",
+      "category": "Rehan",
+      "prompt": "What is Rehan's favorite non-Indian restaurant in London?",
+      "answer": "Bubala",
+      "notes": ""
+    },
+    {
+      "id": "q-030",
+      "category": "Rehan",
+      "prompt": "What is Rehan's favorite non-animated English movie?",
+      "answer": "Top Gun",
+      "notes": ""
+    },
+    {
+      "id": "q-031",
+      "category": "STEM",
+      "prompt": "What is the total surface area of a solid cylinder with radius 7 meters and height 10 meters?",
+      "answer": "748 sq. m",
+      "notes": "2 * (pi * r^2) + 2 * pi * r *h"
+    },
+    {
+      "id": "q-032",
+      "category": "Sports",
+      "prompt": "Before Brian Lara scored 400 not out, who held the record for the highest individual score in test cricket?",
+      "answer": "Matthew Hayden (380)",
+      "notes": "Against Zimbabwe in 2003"
+    },
+    {
+      "id": "q-033",
+      "category": "Sports",
+      "prompt": "In tennis, who was the first man in the Open Era to win each of the four Grand Slams at least twice?",
+      "answer": "Novak Djokovic",
+      "notes": ""
+    },
+    {
+      "id": "q-034",
+      "category": "History",
+      "prompt": "Which country was formerly known as Abyssinia?",
+      "answer": "Ethiopia",
+      "notes": ""
+    },
+    {
+      "id": "q-035",
+      "category": "History",
+      "prompt": "Where was Marble Arch originally located?",
+      "answer": "The entrance of Buckingham Palace",
+      "notes": ""
+    },
+    {
+      "id": "q-036",
+      "category": "History",
+      "prompt": "What is the name of the item that helped historians decipher hieroglyphics?",
+      "answer": "The Rosetta Stone",
+      "notes": ""
+    },
+    {
+      "id": "q-037",
+      "category": "Geography",
+      "prompt": "Which two countries share the longest land border in the world?",
+      "answer": "Canada and USA",
+      "notes": ""
+    },
+    {
+      "id": "q-038",
+      "category": "Bollywood",
+      "prompt": "Which movie has the dialog \"Pushpa, I hate tears\"?",
+      "answer": "Amar Prem (1972)",
+      "notes": ""
+    },
+    {
+      "id": "q-039",
+      "category": "STEM",
+      "prompt": "What unusual property of water causes lakes to freeze top down, meaning that fish and other aquatic life can survive when the surface of the lake freezes?",
+      "answer": "Anomalous expansion of water - water expands between 4 degrees and 0 degrees",
+      "notes": ""
+    },
+    {
+      "id": "q-040",
+      "category": "Geography",
+      "prompt": "Going from West to East, name all bridges that cross the Thames between Westminster Bridge and Tower Bridge.",
+      "answer": "Golden Jubilee Bridge, Waterloo Bridge, Blackfriars Bridge, Millenium Bridge, Southwark Bridge, Cannon St Railway Bridge, London Bridge",
+      "notes": "Golden Jubilee Bridge is also called Hungerford Brdige and Blackfriars also has a railway bridge"
+    },
+    {
+      "id": "q-041",
+      "category": "Music & Movies",
+      "prompt": "Which actor has appeared in all three of these franchises: Star Wars, the Marvel Cinematic Universe and Jurassic Park?",
+      "answer": "Samuel L. Jackson",
+      "notes": "Star Wars - Jedi Master, MCU - Nick Fury, Jurassic Park - Chief Engineer"
+    },
+    {
+      "id": "q-042",
+      "category": "Music & Movies",
+      "prompt": "Which song became the first music video played on MTV when the channel launched in 1981?",
+      "answer": "Video Killed the Radio Star (The Buggles)",
+      "notes": ""
+    },
+    {
+      "id": "q-043",
+      "category": "Music & Movies",
+      "prompt": "Name the album.",
+      "answer": "Midnights",
+      "notes": "Lavendar Haze"
+    },
+    {
+      "id": "q-044",
+      "category": "Bollywood",
+      "prompt": "Which Bollywood song does M.I.A. sample here?",
+      "answer": "Jimmy Jimmy Jimmy Aaja",
+      "notes": "Jimmy by M.I.A. 0:20 to 0:50"
+    },
+    {
+      "id": "q-045",
+      "category": "STEM",
+      "prompt": "You have 20 coins and one is counterfeit and heavier than the others. You also have a balance scale. What is the minimum number of balance scale weighings needed to guarantee you identify the counterfeit coin?",
+      "answer": "3",
+      "notes": "Each weighing can split the candidates into 3 group so 3 weighings can distinguish 3^3 = 27 coins"
+    },
+    {
+      "id": "q-046",
+      "category": "STEM",
+      "prompt": "What is the SI unit of Magentic Flux Density?",
+      "answer": "Tesla",
+      "notes": "It is the strength of a magnetic field"
+    },
+    {
+      "id": "q-047",
+      "category": "Music & Movies",
+      "prompt": "Name the band.",
+      "answer": "One Republic",
+      "notes": "Connection"
+    },
+    {
+      "id": "q-048",
+      "category": "STEM",
+      "prompt": "What is the last digit of the product of the first 99 natural numbers?",
+      "answer": "0",
+      "notes": ""
+    },
+    {
+      "id": "q-049",
+      "category": "History",
+      "prompt": "Still an issue today, which 1917 British public statement announced official government support for the establishment of a \"national home for the Jewish people\" in Palestine?",
+      "answer": "The Balfour Declaration",
+      "notes": ""
+    },
+    {
+      "id": "q-050",
+      "category": "Sports",
+      "prompt": "At which sports event was this iconic piece of commentary heard: \"They think it's all over... it is now!\"?",
+      "answer": "1966 FIFA World Cup Final - England vs West Germany",
+      "notes": ""
+    }
+  ]
+}
